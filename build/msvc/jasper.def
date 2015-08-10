@@ -1,0 +1,20 @@
+LIBRARY     LIBJASPER.DLL
+
+EXPORTS
+
+jas_init
+jas_stream_memopen
+jas_stream_close
+jas_stream_flush
+jas_stream_fillbuf
+jas_matrix_create
+jas_matrix_destroy
+jas_image_create
+jas_image_destroy
+jas_image_decode
+jas_image_encode
+jas_image_readcmpt
+jas_image_writecmpt
+jas_image_strtofmt
+jas_malloc
+jas_free
